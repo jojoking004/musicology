@@ -29,10 +29,10 @@ body {
     position: absolute;
     top: 50%;
     right: 50%;
-  
+    left: 10%;
     transform: translate(-50%);
     color: white;
-    margin-left: 300px;
+    margin-left: 400px;
     
 }
 
