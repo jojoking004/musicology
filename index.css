@@ -32,6 +32,7 @@ body {
     left: 10%;
     transform: translate(-50%);
     color: white;
+    margin-left: 300px;
 }
 
 .button {
@@ -195,9 +196,11 @@ body {
     color: #ccc;
     text-decoration: none;
 }
-.social-icons a img {
+.social-icons a  {
     width: 24px;
     margin-right: 10px;
+    font-size: larger;
+    color: white;
 }
 
 /* ----------------- MEDIA QUERIES FOR RESPONSIVENESS ----------------- */
@@ -260,3 +263,192 @@ body {
     }
 }
 
+/* ----------------- MEDIA QUERIES FOR RESPONSIVENESS ----------------- */
+
+@media screen and (max-width: 768px) {
+    .text {
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .my-hero,
+    .my-hero2,
+    .my-hero3,
+    .my-hero4,
+    .my-hero5,
+    .duotone {
+        height: auto;
+        padding: 40px 0;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .part3,
+    .part4,
+    .part5,
+    .part6 {
+        width: 100%;
+        float: none;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .part5 img {
+        width: 80%;
+        height: auto;
+    }
+
+    .mine {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .new-one {
+        flex-direction: column;
+    }
+
+    .input-3,
+    .button-3 {
+        width: 80%;
+        position: static;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* ----------------- EXTRA RESPONSIVENESS FOR SMALLER SCREENS (480px) ----------------- */
+
+@media screen and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .navbar-center {
+        position: static;
+        transform: none;
+        text-align: center;
+    }
+
+    .text {
+        width: 90%;
+        height: auto;
+        position: static;
+        margin: 0 auto;
+        transform: none;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .button,
+    .button-2,
+    .button-3 {
+        width: 90%;
+        max-width: 250px;
+        margin: 10px auto;
+        font-size: 14px;
+    }
+
+    .me-3 {
+        height: 24px;
+        margin-bottom: 5px;
+    }
+
+    .card1,
+    .card2 {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .part2,
+    .part3,
+    .part4,
+    .part5,
+    .part6 {
+        width: 100%;
+        float: none;
+        margin: 20px 0;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .part5 img {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .mine {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .mine2 {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .form {
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new-one {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-3 {
+        width: 90%;
+        margin: 10px auto;
+        padding-left: 15px;
+        height: 45px;
+    }
+
+    .button-3 {
+        position: static;
+        width: 90%;
+        height: 45px;
+        margin: 10px auto;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+
+    .footer-section h3 {
+        font-size: 18px;
+    }
+
+    .footer-section ul li a {
+        font-size: 14px;
+    }
+
+    .social-icons a {
+        font-size: 18px;
+    }
+}
