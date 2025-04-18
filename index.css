@@ -32,8 +32,7 @@ body {
     left: 10%;
     transform: translate(-50%);
     color: white;
-    padding-left: 400px;
-    
+    margin-left: 300px;
 }
 
 .button {
