@@ -1,133 +1,131 @@
-body{
-   
-    font-family: 'Arial', sans-serif; /* Font family for the body */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-
-.navbar{
-    background-color: #2C2C2C; /* Dark background for the navbar */
+.navbar {
+    background-color: #2C2C2C;
     height: 70px;
-
 }
 .navbar-center {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
-.btn-outline-secondary{
+.btn-outline-secondary {
     border-radius: 20px;
-
 }
-.my-hero{
+
+.my-hero {
     background-image: url(bg.png);
     width: 100%;
     height: 800px;
     position: relative;
 }
-.text{
+.text {
     width: 50%;
-    height:800px;
+    height: 800px;
     position: absolute;
     top: 50%;
-right: 50%;
-left: 10%;
-    transform: translate(-50%, );
+    right: 50%;
+    left: 10%;
+    transform: translate(-50%);
     color: white;
 }
-.button{
+
+.button {
     width: 200px;
-    background-color: #FF630C; /* Dark background for the button */
-    color: white; /* White text color for the button */
- border: none;   
-    padding: 10px 20px; /* Padding for the button */
-    text-align: center; /* Center text in the button */
-    text-decoration: none; /* Remove underline from text */
-    display: inline-block; /* Display as inline-block */
-    font-size: 16px; /* Font size for the button text */
-    margin: 4px 2px; /* Margin around the button */
-  cursor: crosshair; /* Pointer cursor on hover */
-    border-radius: 5px; /* Rounded corners for the button */
+    background-color: #FF630C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: crosshair;
+    border-radius: 5px;
 }
 .button:hover {
-    background-color: #FF4500; /* Darker background on hover */
-    color: white; /* White text color on hover */
+    background-color: #FF4500;
+    color: white;
 }
-.me-3{
+.me-3 {
     height: 30px;
     margin-bottom: 5px;
 }
-.my-hero2{
+
+.my-hero2 {
     background-image: url(bg2.png);
     width: 100%;
     height: 800px;
     display: flex;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
 }
-.card1{
-height: 300px;
-margin: 20px;
+.card1 {
+    height: 300px;
+    margin: 20px;
 }
-.my-hero3{
+
+.my-hero3 {
     background-image: url(bg3.png);
     width: 100%;
     height: 800px;
-   
 }
-.part2{
+.part2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.card2{
+.card2 {
     background-color: #FF630C;
     margin: 20px;
     color: white;
 }
-.button-2{
+.button-2 {
     width: 200px;
 }
-.my-hero4{
+
+.my-hero4 {
     background-image: url(bg4.png);
     width: 100%;
     height: 800px;
     display: flex;
 }
-.part3{
+.part3 {
     width: 50%;
     float: left;
 }
-.part4{
+.part4 {
     margin-top: 200px;
 }
-.my-hero5{
+.my-hero5 {
     background-image: url(bg5.png);
     width: 100%;
     height: 800px;
     display: flex;
 }
-.part5{
+.part5 {
     width: 50%;
     float: right;
-
-margin-top: 10px;
+    margin-top: 10px;
 }
-.part5 img{
+.part5 img {
     width: 100%;
     height: 100%;
 }
-.part6{
+.part6 {
     width: 50%;
     margin-top: 200px;
 }
-.buisiness-card{
+.buisiness-card {
     width: 100%;
     height: 600px;
-
 }
-.duotone{
+.duotone {
     background-image: url(new\ bg.png);
     width: 100%;
     height: 800px;
@@ -135,35 +133,32 @@ margin-top: 10px;
     text-align: center;
     color: white;
 }
-.texts{
-   
-padding-top: 300px;
+.texts {
+    padding-top: 300px;
 }
-.form{
+.form {
     background-image: url(final\ bg.png);
     height: 500px;
     display: block;
     justify-content: center;
     align-items: center;
 }
-.mine{
+.mine {
     padding-top: 200px;
     padding-left: 600px;
     color: white;
 }
-.mine2{
-
+.mine2 {
     text-align: center;
     color: white;
 }
-.new-one{
+.new-one {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
-.input-3{
+.input-3 {
     width: 300px;
     height: 50px;
     border-radius: 20px;
@@ -172,35 +167,96 @@ padding-top: 300px;
     margin-bottom: 10px;
     position: relative;
 }
-.button-3{
-position: absolute;
-margin-bottom: 10px;
-width: 110px;
-height: 50px;
+.button-3 {
+    position: absolute;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 50px;
 }
+
 .footer {
     background: #111;
     color: #fff;
     padding: 40px 0;
-  }
-  .container {
+}
+.container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-  }
-  .footer-section h3 {
+}
+.footer-section h3 {
     margin-bottom: 20px;
-  }
-  .footer-section ul {
+}
+.footer-section ul {
     list-style: none;
     padding: 0;
-  }
-  .footer-section ul li a {
+}
+.footer-section ul li a {
     color: #ccc;
     text-decoration: none;
-  }
-  .social-icons a img {
+}
+.social-icons a img {
     width: 24px;
     margin-right: 10px;
-  }
-  
+}
+
+/* ----------------- MEDIA QUERIES FOR RESPONSIVENESS ----------------- */
+
+@media screen and (max-width: 768px) {
+    .text {
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .my-hero,
+    .my-hero2,
+    .my-hero3,
+    .my-hero4,
+    .my-hero5,
+    .duotone {
+        height: auto;
+        padding: 40px 0;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .part3,
+    .part4,
+    .part5,
+    .part6 {
+        width: 100%;
+        float: none;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .part5 img {
+        width: 80%;
+        height: auto;
+    }
+
+    .mine {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .new-one {
+        flex-direction: column;
+    }
+
+    .input-3,
+    .button-3 {
+        width: 80%;
+        position: static;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
