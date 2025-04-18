@@ -48,6 +48,7 @@ body {
     margin: 4px 2px;
     cursor: crosshair;
     border-radius: 5px;
+    margin-left:300px;
 }
 .button:hover {
     background-color: #FF4500;
